@@ -1,0 +1,10 @@
+{
+  "queries": [
+    {"query": "RAG 是什么？它主要解决大模型的什么问题？", "relevant_docs": ["rag.md"]},
+    {"query": "Transformer 的自注意力机制是怎么工作的？", "relevant_docs": ["transformer.md"]},
+    {"query": "向量数据库在语义检索中起什么作用？", "relevant_docs": ["vector_db.md"]},
+    {"query": "大模型微调有哪些主流方法？LoRA 属于哪一类？", "relevant_docs": ["finetune.md"]},
+    {"query": "模型量化有什么好处？为什么能降低部署成本？", "relevant_docs": ["quantization.md"]},
+    {"query": "混合检索为什么比单一检索更稳定？", "relevant_docs": ["rag.md", "vector_db.md"]}
+  ]
+}

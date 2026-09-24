@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cxrag"
+version = "1.0.0"
+description = "CxRAG —— 混合检索增强问答引擎（离线 / CPU / 模块化 / 可一键复现）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "晨星" }]
+keywords = ["rag", "retrieval", "ai", "nlp", "bm25", "faiss", "hybrid-search"]
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "scipy",
+    "rank_bm25",
+    "faiss-cpu",
+    "networkx",
+]
+
+[project.optional-dependencies]
+llm = ["openai", "llama-cpp-python"]
+dev = ["pytest"]
+
+[project.scripts]
+cxrag = "cxrag.cli:main"
+
+[tool.setuptools]
+packages = ["cxrag"]

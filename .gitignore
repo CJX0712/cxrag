@@ -1,0 +1,18 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 测试 / 运行时产物
+.pytest_cache/
+demo_out.json
+*.log
+
+# 系统
+.DS_Store

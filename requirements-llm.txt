@@ -1,0 +1,4 @@
+# 可选：接入真实生成式 LLM（不属于核心链路，离线 demo 不需要）
+# 安装：pip install -r requirements-llm.txt
+openai
+llama-cpp-python

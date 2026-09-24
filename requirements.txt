@@ -1,0 +1,7 @@
+# CxRAG 核心依赖（CPU-only，可离线安装；精确版本见 requirements.lock）
+numpy
+scikit-learn
+scipy
+rank_bm25
+faiss-cpu
+networkx
